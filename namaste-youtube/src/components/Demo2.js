@@ -4,7 +4,6 @@ import React, { useEffect, useRef, useState } from "react";
 const Demo2 = () => {
   const [y, setY] = useState(0);
   let x = 0;
-  console.log("Rendering....");
   // whenever my component rerenders its refreash the let
 
   const ref = useRef(0);
